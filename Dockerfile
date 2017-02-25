@@ -1,5 +1,5 @@
 FROM  phusion/baseimage:0.9.17
-MAINTAINER Daniel Cortes Pichardo, daniel.corte.pichardo@gmail.com
+MAINTAINER Daniel Cortes Pichardo, daniel.cortes.pichardo@gmail.com
 RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
 RUN apt-get -y update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q python-software-properties software-properties-common
